@@ -1,0 +1,43 @@
+.nieuwe-website{
+  position: fixed;
+}
+.nieuwe-website-tekst{
+  text-align: center;
+  font-weight: bold;
+  padding: 1em;
+  color: red;
+  background-color: rgba(242, 242, 242, 0.3);
+}
+.foto{
+  width: 25vw ;
+  height: 60vh;
+  margin-left: 22.5vw;
+  filter: grayscale(100%);
+  transition: .5s ease-in-out;
+  margin-bottom: 2em;
+  border-bottom: 5px solid #9AE15F;
+}
+.foto:hover{
+  filter: grayscale(0%);
+}
+.contacteer{
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+.intmidden{
+  text-align: center;
+  margin-top: -2em;
+}
+svg{
+  filter: grayscale(100%);
+  transition: .5s ease-in-out;
+}
+svg:hover{
+  filter: grayscale(0%);
+}
+
+.st0{fill:#338ED5;}
+.st1{font-family:'MyriadPro-Regular';}
+.st2{font-size:12px;}
+.st3{fill:#F2F2F2;}
+.st4{fill:none;stroke:#338ED5;stroke-miterlimit:10;}
